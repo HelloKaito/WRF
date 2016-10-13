@@ -1,0 +1,28 @@
+# gitignore file.
+# Tells git which files to ignore during commits etc.
+# This is for WRF development.
+
+*.o
+*.exe
+*.tar
+*.log
+*.mod
+*.a
+*.inc
+*.tar.gz
+# Ignore ARCHER job log files from compilation
+*.o[0-9]*
+*.e[0-9]*
+
+tarballs
+Registry
+registry
+[Tt]humbs.db
+
+.*
+!/.gitignore
+
+configure.wrf.backup
+configure.wrf~
+
+README.*
